@@ -26,7 +26,7 @@ int u=1, d=0, l=0, r=0;
 int u1[bullet]={0}, d1[bullet]={0}, l1[bullet]={0}, r1[bullet]={0};
 int bx[bullet]={0}, by[bullet]={0};
 int q[bullet]={0}, t=0, score=0, life=3, s=1;
-
+int bulletfrequency=40;
 
 void setnewgame()
 {

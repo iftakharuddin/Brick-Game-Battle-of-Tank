@@ -7,8 +7,10 @@
 # include "mytank.h"
 # include "enemytank.h"
 # include "menu.h"
+# define SW 800
+# define SH 420
 
-int bulletfrequency=40;
+
 
 void iDraw()
 {
@@ -297,7 +299,7 @@ void change(void)
 		scoreset();
 		life--;
 	}
-	if(score==25 && t<60){
+	if(score==2000 && t<60){
 		gameState=6;
 		num=9;
 		bulletfrequency=30;
@@ -397,6 +399,6 @@ int main()
 	i=iSetTimer(2000, enemymovement);
 	//printf("enemymovement--%d\n", i);
 
-	iInitialize(800, 420, "Brick Game: Battle of Tank");
+	iInitialize(SW, SH, "Brick Game: Battle of Tank");
 	return 0;
 }	
