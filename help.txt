@@ -1,0 +1,7 @@
+
+
+
+USE *arrow keys* to control 
+tank-> Up, Down, Left , Right
+Press 'q' button to fire
+Press 'p' to pause
